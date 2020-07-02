@@ -14,6 +14,9 @@ You can fetch a binary release for your machine from the
 
 Basic usage is just `./fetcher <some derpi query>`, e.g. `./fetcher "artist:myself"`.
 
+Images will be dropped in **the current working directory**, in folders named after the
+artist(s) of the images.
+
 In full:
 ```
 ./fetcher [flags] <query>
